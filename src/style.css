@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .font-notosanslao {
+        @apply font-sans;
+    }
+
+    .font-popins {
+        @apply font-mono;
+    }
+
+    .text-primaryTitle {
+        @apply text-[#ff5e57];
+    }
+
+    .text-content {
+        @apply text-[#8f96a6];
+    }
+
+    .bg-primary {
+        @apply bg-[#ff5e57];
+    }
+}
+
