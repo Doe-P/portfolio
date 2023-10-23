@@ -2,6 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    body{
+        margin: 0;
+        padding: 0;
+        @apply bg-primaryBg;
+        @apply text-primaryBase;
+    }
+    @keyframes append-animate {
+        from {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0%);
+            opacity: 1;
+        }
+    }
+    .arrow-slide{
+        animation: append-animate 0.5s ease-out;
+    }
+}
+
 @layer components {
     .font-notosanslao {
         @apply font-sans;
@@ -9,18 +31,6 @@
 
     .font-popins {
         @apply font-mono;
-    }
-
-    .text-primaryTitle {
-        @apply text-[#ff5e57];
-    }
-
-    .text-content {
-        @apply text-[#8f96a6];
-    }
-
-    .bg-primary {
-        @apply bg-[#ff5e57];
     }
 }
 
