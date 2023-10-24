@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-end gap-4 text-2xl pb-20">
+  <div class="flex items-end gap-4 text-2xl">
     <a href="https://github.com/Doe-P" target="_blank">
       <svg class="w-8 h-8 hover:scale-125 hover:text-primaryTitle transition-all ease-in-out duration-150" xmlns="http://www.w3.org/2000/svg"
            viewBox="-2 -2 24 24" width="24" fill="currentColor">
