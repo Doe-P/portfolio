@@ -26,8 +26,8 @@ const navbarMenus = reactive([
     title: "Skills",
     key: "section-skills",
   }, {
-    title: "Experiences",
-    key: "section-experiences",
+    title: "Experience",
+    key: "section-experience",
   }, {
     title: "Projects",
     key: "section-projects",

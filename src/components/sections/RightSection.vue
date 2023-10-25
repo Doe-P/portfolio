@@ -1,17 +1,14 @@
 <template>
-  <div class="w-full grid gap-32 lg:gap-40 px-5">
+  <div class="w-full grid gap-20 lg:gap-30 px-5">
     <About/>
-   <Experiences/>
-    <div class="">Experiences</div>
-    <div class="">Experiences</div>
-    <div class="">Experiences</div>
-    <div class="">Experiences</div>
+    <CardContainer :data="experience"/>
   </div>
 </template>
 
 <script setup>
 import About from "./about/About.vue";
-import Experiences from "./experiences/Experiences.vue";
+import CardContainer from "../CardContainer/CardContainer.vue";
+import {experience} from "../../contents/experience.js";
 </script>
 
 <style scoped>
