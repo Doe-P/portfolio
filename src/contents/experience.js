@@ -6,14 +6,25 @@ export const experience = reactive({
     data: [
         {
             date: "2021 - 2023",
-            picture: "",
+            picture: "https://haltech.la/",
             title: {
                 name: "Front-end and Mobile app at HalTech",
-                link: "https://github.com/Doe-P"
+                link: ""
             },
-            materialLink: "https://github.com/Doe-P",
-            description: ["· Developed a real-time statistical analysis system for football betting and investing, which conducted extensive data analysis over four years, showing consistent positive returns on selected matches that were placed by selected conditions.", "· Developed a notification system to send alerts to the Line application when there are matches that meet the specified conditions."],
-            techStack: ["Vue.js", "Javascript", "Typescript", "HTML", "CSS", "Tailwind", "Antd", "Flutter", "github"]
-        }
+            materialLink: "",
+            description: ["·ພັດທະນາ front-end ລະບົບຈັດການ ແລະ ລາຍງານຂໍ້ມູນສິນຄ້າ, ລາຍການອໍເດີຂອງ hal ecommerce ແລະ ມີການແຈ້ງເຕືອນແອັດມິນເວລາມີການສັ່ງຊື້ຈາກແອບ ແລະ ພັດທະນາລະບົບຈັດການຊັ້ນວາງສິນຄ້າຕາມສາຂາ", "·ພັດທະນາ UI ແອບພລິເຄຊັນກ່ຽວກັບການສັ່ງຊື້, ຈັດສົ່ງນ້ຳດື່ມ, ປັກມຸດສະຖານທີ່ຈັດສົ່ງ ແລະ ແຈ້ງເຕືອນເມືອຈັດສົ່ງນ້ຳສຳເລັດ.","·ເປັນສ່ວນໜື່ງໃນການພັດທະນາຟັງຊັນການລົງທະບຽນຜ່ານລະຫັດແນະນຳ ແລະ ການໃສ່ລະຫັດ PIN ໃນແອບພລິເຄຊັນ", "·ແກ້ bugs ແລະ ພັດທະນາບາງຟັງຊັນທີ່ລະບົບຕ້ອງການ."],
+            techStack: ["Vue.js", "Javascript", "Typescript", "HTML", "CSS", "Tailwind", "Antd", "Flutter", "Github"]
+        },
+        {
+            date: "2020 - 2021",
+            picture: "",
+            title: {
+                name: "Intern on web front-end developer at MGM",
+                link: "https://mgm-communications.la/"
+            },
+            materialLink: "",
+            description: ["·ອອກແບບ UI ແລະ ພັດທະນາເວບໄຊ"],
+            techStack: ["Javascript","HTML", "CSS", "Bootstrap"]
+        },
     ]
 });
