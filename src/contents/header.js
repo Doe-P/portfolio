@@ -2,8 +2,8 @@ import {reactive, ref} from "vue";
 
 export const data = reactive({
     name:'Phoukhan Xayavongsone',
-    title: 'Front-end Developer',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur eaque eos exercitationem ipsam labore laborum molestiae possimus repellendus reprehenderit veritatis.',
+    title: 'Front-End & Mobile App Developer',
+    description: 'From concept to reality, bridging the gap with code, transforming ideas into tangible digital solutions.',
     link: 'https://www.facebook.com/?_rdc=2&_rdr',
     buttonText: 'View Resume',
 });

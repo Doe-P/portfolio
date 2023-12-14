@@ -11,12 +11,14 @@ module.exports = {
     },
     extend: {
       colors:{
-        primaryTitle: '#127369',
-        primaryContent: '#4C5958',
-        primarySubContent: '#8AA6A3',
+        primaryTitle: '#2ECC71',
+        primaryHeader: '#fff',
+        primaryContent: '#95A5A6',
+        primarySubContent: '#232D3F',
+        primarySubContent2:'#497f9e',
         primaryBase: '#a9b5b4',
-        primaryAccent: '#10403B',
-        primaryBg: '#BFBFBF',
+        primaryAccent: '#27ae60',
+        primaryBg: '#000',
       }
     },
   },

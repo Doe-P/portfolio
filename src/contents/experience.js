@@ -5,25 +5,25 @@ export const experience = reactive({
     title: "Experience",
     data: [
         {
-            date: "2021 - 2023",
-            picture: "https://haltech.la/",
+            date: "2021 - Present",
+            picture: "",
             title: {
                 name: "Front-end and Mobile app at HalTech",
-                link: ""
+                link: "https://haltech.la/"
             },
             materialLink: "",
-            description: ["·ພັດທະນາ front-end ລະບົບຈັດການ ແລະ ລາຍງານຂໍ້ມູນສິນຄ້າ, ລາຍການອໍເດີຂອງ hal ecommerce ແລະ ມີການແຈ້ງເຕືອນແອັດມິນເວລາມີການສັ່ງຊື້ຈາກແອບ ແລະ ພັດທະນາລະບົບຈັດການຊັ້ນວາງສິນຄ້າຕາມສາຂາ", "·ພັດທະນາ UI ແອບພລິເຄຊັນກ່ຽວກັບການສັ່ງຊື້, ຈັດສົ່ງນ້ຳດື່ມ, ປັກມຸດສະຖານທີ່ຈັດສົ່ງ ແລະ ແຈ້ງເຕືອນເມືອຈັດສົ່ງນ້ຳສຳເລັດ.","·ເປັນສ່ວນໜື່ງໃນການພັດທະນາຟັງຊັນການລົງທະບຽນຜ່ານລະຫັດແນະນຳ ແລະ ການໃສ່ລະຫັດ PIN ໃນແອບພລິເຄຊັນ", "·ແກ້ bugs ແລະ ພັດທະນາບາງຟັງຊັນທີ່ລະບົບຕ້ອງການ."],
+            description: ["- Develop an web applications using html, css, javascript and vue.js.", "- Develop and refactor web applications in the form of clean architecture by typescript.","- Build application using flutter.", "- Maintenance and fix bugs of application."],
             techStack: ["Vue.js", "Javascript", "Typescript", "HTML", "CSS", "Tailwind", "Antd", "Flutter", "Github"]
         },
         {
-            date: "2020 - 2021",
+            date: "June 2020",
             picture: "",
             title: {
-                name: "Intern on web front-end developer at MGM",
+                name: "Intern front-end developer at MGM",
                 link: "https://mgm-communications.la/"
             },
             materialLink: "",
-            description: ["·ອອກແບບ UI ແລະ ພັດທະນາເວບໄຊ"],
+            description: ["- Develop an website using html, css and javascript", "- Build web landing page by bootstrap 5"],
             techStack: ["Javascript","HTML", "CSS", "Bootstrap"]
         },
     ]
