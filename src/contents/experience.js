@@ -5,14 +5,25 @@ export const experience = reactive({
     title: "Experience",
     data: [
         {
-            date: "2021 - Present",
+            date: "MAR 2024 - Present",
+            picture: "",
+            title: {
+                name: "Front-end developer at AIF Group",
+                link: "https://aifgrouplaos.com/"
+            },
+            materialLink: "",
+            description: ["- Developed an web applications for inside and outside company about HR management system and Lao postal system using Next.js framework for server side rendering.", "- Maintenance system and Fixing problem."],
+            techStack: ["Next.js", "Nuxt.js", "Typescript", "Svelte.js", "Tailwind", "Git/Github"]
+        },
+        {
+            date: "2021 - FEB 2024",
             picture: "",
             title: {
                 name: "Front-end and Mobile app at HalTech",
                 link: "https://haltech.la/"
             },
             materialLink: "",
-            description: ["- Develop an web applications using html, css, javascript and vue.js.", "- Develop and refactor web applications in the form of clean architecture by typescript.","- Build application using flutter.", "- Maintenance and fix bugs of application."],
+            description: ["- Developed an web applications for back door management of hal e-commerce and hal-self using Vue.js framework and Ant design UI framework.", "- One of the team members who developed the hal logistic app about PIN (Personal Identification Number) before transfer point on app, Referral code feature.", "- Maintenance and Fixing problem from bugs and bad user experience on the app."],
             techStack: ["Vue.js", "Javascript", "Typescript", "HTML", "CSS", "Tailwind", "Antd", "Flutter", "Github"]
         },
         {
